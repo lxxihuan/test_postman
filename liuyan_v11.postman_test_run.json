@@ -1,0 +1,106 @@
+{
+	"id": "ff0aea51-d9a6-47b4-b42e-a0231c0fe983",
+	"name": "liuyan_v11",
+	"timestamp": "2022-08-11T06:54:44.409Z",
+	"collection_id": "12776872-2850b933-d0b8-48ef-ab79-e5bf1677fd30",
+	"folder_id": 0,
+	"environment_id": "12776872-0376ac94-1b28-4a0c-ac92-698c1f8a0462",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "cc7a5068-d328-439e-ae39-6cc19d5e31e6",
+			"name": "账号密码登录成功",
+			"time": 112,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				209,
+				124,
+				112
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "44e19bd2-68cc-45f5-80d3-e9af4992b2ca",
+			"name": "道具购买(正向)接口",
+			"time": 174,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				178,
+				179,
+				174
+			],
+			"allTests": [
+				{
+					"Your test name": true
+				},
+				{
+					"Your test name": true
+				},
+				{
+					"Your test name": true
+				}
+			]
+		},
+		{
+			"id": "097eacd4-4aa2-4a3e-8037-df199c0cc03e",
+			"name": "道具购必填参数缺失",
+			"time": 188,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				178,
+				187,
+				188
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 1529,
+	"collection": {
+		"requests": [
+			{
+				"id": "cc7a5068-d328-439e-ae39-6cc19d5e31e6",
+				"method": "POST"
+			},
+			{
+				"id": "44e19bd2-68cc-45f5-80d3-e9af4992b2ca",
+				"method": "POST"
+			},
+			{
+				"id": "097eacd4-4aa2-4a3e-8037-df199c0cc03e",
+				"method": "POST"
+			}
+		]
+	}
+}
